@@ -4,6 +4,8 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
+ 
+
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
@@ -23,6 +25,7 @@ import '@mdi/font/css/materialdesignicons.css'
                 colors: {
                     primary: "#1B5E20",
                     secondary: "#00E676",
+                    accent1: "#FFFF"
                 },
             },
         },
